@@ -1,0 +1,16 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/stylesheets/style.css">
+        <script src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <body>
+        <% if(user.facebook){ %>
+            <img src="<%=user.facebook.image%>">
+        <% } %>
+        <%=user.name%>
+        
+    </body>  
+  </head>
+</html>
